@@ -1,6 +1,6 @@
 name: metriport_flutter
 description: A Plugin to be able to access our connected widget.
-version: 1.0.0
+version: 1.0.1
 homepage: https://www.metriport.com/
 
 environment:
