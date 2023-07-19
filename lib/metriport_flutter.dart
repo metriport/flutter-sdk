@@ -12,7 +12,6 @@ class WebView extends StatefulWidget {
   final List<String>? providers;
   final String? url;
   final String? apiUrl;
-  final Key? key;
 
   const WebView({
     required this.clientApiKey,
@@ -23,7 +22,7 @@ class WebView extends StatefulWidget {
     this.providers,
     this.url,
     this.apiUrl,
-    this.key,
+    key,
   }) : super(key: key);
 
   @override
