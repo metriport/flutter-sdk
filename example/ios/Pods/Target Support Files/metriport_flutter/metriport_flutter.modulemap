@@ -1,0 +1,6 @@
+framework module metriport_flutter {
+  umbrella header "metriport_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+}
