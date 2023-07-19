@@ -15,15 +15,15 @@ class WebView extends StatefulWidget {
   final Key? key;
 
   const WebView({
-    required String this.clientApiKey,
-    required String this.token,
-    required bool this.sandbox,
-    String? this.colorMode,
-    String? this.customColor,
-    List<String>? this.providers,
-    String? this.url,
-    String? this.apiUrl,
-    Key? this.key,
+    required this.clientApiKey,
+    required this.token,
+    required this.sandbox,
+    this.colorMode,
+    this.customColor,
+    this.providers,
+    this.url,
+    this.apiUrl,
+    this.key,
   }) : super(key: key);
 
   @override

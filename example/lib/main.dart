@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:metriport_flutter/web_view.dart';
+import 'package:metriport_flutter/metriport_flutter.dart';
 
 void main() => runApp(const WebViewExample());
 
